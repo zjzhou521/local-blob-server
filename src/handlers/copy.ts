@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { defineHandler, storePath } from './common.ts';
+import { defineHandler, storePath } from './common.js';
 
 export default defineHandler({
   name: 'put',

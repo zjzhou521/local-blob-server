@@ -8,17 +8,17 @@
     "start": "bun dist/server.js",
     "build": "bun src/build.ts",
     "dev": "bun src/server.ts",
-    "build:docker": "docker build . --tag vercel-blob-server"
+    "build:docker": "pnpm run build && docker build . --tag vercel-blob-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bun": "^1.1.13"
+    "bun": "^1.2.10"
   },
   "devDependencies": {
-    "@vercel/blob": "^0.23.3",
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@vercel/blob": "^0.23.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

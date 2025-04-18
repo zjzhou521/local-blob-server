@@ -1,0 +1,7 @@
+services:
+  vercel-blob-server:
+    image: vercel-blob-server
+    ports:
+      - '9966:3000'
+    volumes:
+      - ./dev/vercel-blob-store:/var/vercel-blob-store

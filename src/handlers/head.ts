@@ -1,6 +1,6 @@
 import path from 'node:path';
 import * as URL from 'node:url';
-import { defineHandler, storePath } from './common.ts';
+import { defineHandler, storePath } from './common.js';
 
 export default defineHandler({
   name: 'head',

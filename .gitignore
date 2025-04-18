@@ -1,5 +1,8 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
+# uploaded files
+dev/vercel-blob-store/*
+
 # Logs
 
 logs
@@ -118,7 +121,7 @@ out
 # Nuxt.js build / generate output
 
 .nuxt
-dist
+# dist
 
 # Gatsby files
 

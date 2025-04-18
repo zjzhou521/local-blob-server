@@ -1,9 +1,9 @@
-import type { Handler } from './handlers/common.ts';
-import copy from './handlers/copy.ts';
-import get from './handlers/get.ts';
-import del from './handlers/del.ts';
-import head from './handlers/head.ts';
-import put from './handlers/put.ts';
+import type { Handler } from './handlers/common.js';
+import copy from './handlers/copy.js';
+import get from './handlers/get.js';
+import del from './handlers/del.js';
+import head from './handlers/head.js';
+import put from './handlers/put.js';
 
 const handlers: Handler[] = [head, get, copy, put, del];
 

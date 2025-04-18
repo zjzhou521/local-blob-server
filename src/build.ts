@@ -8,5 +8,5 @@ if (!result.success) {
   for (let message of result.logs) {
     console.error(`${message.level} ${message.name}`);
   }
-  process.exit(0);
+  process.exit(1);
 }
