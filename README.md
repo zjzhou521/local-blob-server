@@ -51,7 +51,7 @@ VERCEL_BLOB_API_URL=http://localhost:9966
 
 6. The file url returned by blob will be at `http://localhost:9966/poster_1.png`
 
-7. blob version requirement: 0.24.1 (does not support 1.0.0)
+7. blob version requirement: 0.24.1 (does not support 1.0.0 - `http://localhost:9966/?pathname=poster_1.png`)
 
    ```shell
    pnpm add @vercel/blob@0.24.1
